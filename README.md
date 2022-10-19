@@ -8,7 +8,7 @@ An Open Source repository for python developers to share their codes.
 
 Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
+See [`contributing.md`](https://github.com/theadeyemiolayinka/python-scripts/blob/main/contributing.md) for ways to get started.
 
 
 
