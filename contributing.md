@@ -9,6 +9,8 @@ then, wait to be assigned (Less than a day).
 Then create a folder in the src folder with your github username. Inside this folder, create
 another folder with the name of the issue you want to solve.
 
+Feel free to give the project a star.
+
 # Example
 If I want to add a python script for basic addition
 I would create an issue stating so after assignment, I would 
