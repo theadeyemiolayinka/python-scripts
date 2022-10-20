@@ -9,7 +9,8 @@ then, wait to be assigned (Less than a day).
 Then create a folder in the src folder with your github username. Inside this folder, create
 another folder with the name of the issue you want to solve.
 
-Additionally, make sure to add a README describing your project and it's dependencies.
+Additionally, make sure to add a README describing your project and it's dependencies. [See a README example](https://github.com/theadeyemiolayinka/python-scripts/blob/main/src/Dellucifer/Colour-Detection-CV/README.md)
+
 Also, add a requirements.txt file to make installation easier
 
 Feel free to give the project a star.
