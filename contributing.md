@@ -9,13 +9,19 @@ then, wait to be assigned (Less than a day).
 Then create a folder in the src folder with your github username. Inside this folder, create
 another folder with the name of the issue you want to solve.
 
+Additionally, make sure to add a README describing your project and it's dependencies.
+Also, add a requirements.txt file to make installation easier
+
 Feel free to give the project a star.
 
 # Example
 If I want to add a python script for basic addition
 I would create an issue stating so after assignment, I would 
-create `src/theadeyemiolayinka/addition/addition.py`
+create `src/theadeyemiolayinka/addition/main.py`, `src/theadeyemiolayinka/addition/README.md` and `src/theadeyemiolayinka/addition/requirements.txt`
+
+Where `theadeyemiolayinka` is my username and `addition` is my project name.
 
 # PRs and Commits
 Make sure to follow the [covetional github commits](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13) . In this case, all your commits should be of type `feat`
 
+Cheers!
