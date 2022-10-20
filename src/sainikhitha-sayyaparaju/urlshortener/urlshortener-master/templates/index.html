@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="msapplication-TileColor" content="#ffc107">
+<meta name="theme-color" content="black">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>URL Shortener</title>
+</head>
+
+<body>
+    <form method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="og_url">URL</label>
+            <input type="url" class="form-control" name="og_url" id="og_url" placeholder="Paste your URL please" value="{{og_url}}" required>
+        </div>
+        <div class="form-group">
+            <label for="short_url">Desired URL</label>
+            <input type="text" class="form-control" id="short_url" name="short_url" placeholder="Either write your desired URL or leave it blank for random short URL">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <br>
+    {% if url %}
+        <p class="text-success">Your short and cute URL is: <a href="{{url}}">{{url}}</a></p>
+    {% endif %}
+    {% if msg %}
+        <p class="text-danger">{{msg}}</p>
+    {% endif %}
+
+    <!--Bootstarap Scripts-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        ></script>
+
+</body>
+
+</html>

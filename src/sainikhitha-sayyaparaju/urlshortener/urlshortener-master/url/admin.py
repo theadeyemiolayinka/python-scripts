@@ -1,5 +1,4 @@
 from django.contrib import admin
-from .models import UrlMap
+from . models import url_db
 # Register your models here.
-
-admin.site.register(UrlMap)
+admin.site.register(url_db)
