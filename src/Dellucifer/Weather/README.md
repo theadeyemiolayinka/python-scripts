@@ -13,15 +13,13 @@ git clone https://github.com/theadeyemiolayinka/python-scripts.git
 
 ### Then move into the directory using
 ```
-cd python-scripts/src/Dellucifer
+cd python-scripts/src/Dellucifer/Weather
 ```
 
 ### Then execute the project using python3
 ```
 python3 weather.py
 ```
-<hr>
-
 If you face any issues or want to contribute, feel free to raise Issues or Pull Requests...
 
      
