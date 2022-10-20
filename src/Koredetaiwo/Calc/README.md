@@ -14,7 +14,7 @@ cd python-scripts/src/Koredetaiwo/Calc
 
 ### Install the required package OpenCV using
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Now execute the program using python3
