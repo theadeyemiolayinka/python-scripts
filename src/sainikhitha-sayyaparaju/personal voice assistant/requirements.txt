@@ -1,6 +1,5 @@
-Name   version
-pyjokes - 0.6.0
-DateTime - 4.3
-SpeechRecognition - 3.8.1
-pyttsx3 - 2.90
-pywhatkit - 5.4
+pyjokes>=0.6.0
+DateTime>=4.3
+SpeechRecognition>=3.8.1
+pyttsx3>=2.90
+pywhatkit>=5.4
