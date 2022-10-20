@@ -3,16 +3,10 @@
 ## Description
 This snippet of code will Scrape weather data using Python to get umbrella reminder on email
 
-## Requirements
-
-`$ pip install bs4`
-
-`$ pip install requests `
-
-`$ pip install smtplib`
-
-`$ pip install schedule `
-
+### Install Requirements
+```
+pip install -r requirements.txt
+```
 
 
 ## Steps To Execution
@@ -20,7 +14,7 @@ This snippet of code will Scrape weather data using Python to get umbrella remin
 - Fork this repo and navigate to Umbrella-Reminder folder
 - Open code.py in any text/code editor
 - Write necessary modification in code like your time ,city, mail-id , password ...
-- Run this code.py `$ python code.py`
+- Run this code.py `python code.py`
 
 Note: When you execute this program it will throw you a smtplib.SMTPAuthenticationError and also sends you a Critical Security alert to your email because, 
 In a nutshell, Google is not allowing you to log in via smtplib because it has flagged this sort of login as “less secure”, so what you have to do is go to 

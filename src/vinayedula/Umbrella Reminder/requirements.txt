@@ -1,0 +1,4 @@
+bs4>=0.0.1
+requests>=2.28.0
+smtplib
+schedule>=1.1.0

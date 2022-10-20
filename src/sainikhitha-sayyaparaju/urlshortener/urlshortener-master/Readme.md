@@ -19,7 +19,7 @@
 
 ## How to Use?
 * Create a python3 virtual environment, navigate to project directory on terminal and install dependencies(listed in requirements.txt file) using the command
-`pip install requirements.txt` <br>
+`pip install -r requirements.txt` <br>
 RUN `python manage.py makemigrations` and `python manage.py migrate` <br>to create tables in database. <br>
 To run server, use command `python manage.py runserver`
 

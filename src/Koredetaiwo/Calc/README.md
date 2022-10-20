@@ -12,7 +12,7 @@ git clone https://github.com/theadeyemiolayinka/python-scripts.git
 cd python-scripts/src/Koredetaiwo/Calc
 ```
 
-### Install the required package OpenCV using
+### Install Requirements
 ```
 pip install -r requirements.txt
 ```

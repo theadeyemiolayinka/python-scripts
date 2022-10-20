@@ -16,6 +16,11 @@ git clone https://github.com/theadeyemiolayinka/python-scripts.git
 cd python-scripts/src/Dellucifer/Weather
 ```
 
+### Install Requirements
+```
+pip install -r requirements.txt
+```
+
 ### Then execute the project using python3
 ```
 python3 weather.py

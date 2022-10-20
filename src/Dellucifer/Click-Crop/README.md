@@ -14,9 +14,9 @@ git clone https://github.com/theadeyemiolayinka/python-scripts.git
 cd python-scripts/src/Dellucifer/Click-Crop
 ```
 
-### If OpenCV is installed then its good otherwise follow this command
+### Install Requirements
 ```
-pip install opencv-python
+pip install -r requirements.txt
 ```
 
 ### Finally execute the program

@@ -15,9 +15,9 @@ git clone https://github.com/theadeyemiolayinka/python-scripts.git
 cd python-scripts/src/Dellucifer/Colour-Detection-CV
 ```
 
-### Install the required package OpenCV using
+### Install Requirements
 ```
-pip install opencv-python
+pip install -r requirements.txt
 ```
 
 ### Now execute the program using python3
