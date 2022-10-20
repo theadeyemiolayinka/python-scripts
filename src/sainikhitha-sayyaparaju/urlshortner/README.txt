@@ -1,1 +1,0 @@
-It is a url shortner, built using Django and the dictionary data structure in python.This is a begginer friendly DSA project.
