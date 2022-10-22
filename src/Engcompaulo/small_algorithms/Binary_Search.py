@@ -16,17 +16,16 @@ def buscaBin(vector, start, the_end, key):
         middle = middle - 1;
         return buscaBin(vector, start, middle, key);
 
-print("Binary search. ordered vector 1~10. Ex: Search for the number 7")
-vector = str(input('Insira a sequencia de numeros prestencentes ao vetor. Ex "1,7,9,20,52,153": '))
+
+vector = str(input('Enter the sequence of numbers belonging to the vector. Ex "1,7,9,20,52,153": '))
 num_search = int(input('Number for the search: '))
+print(f"Binary search. ordered vector 1~10. Ex: Search for the number {num_search}")
 
 print("vector:  ",vector)
 vector = vector.split(",")
 vector_num = []
 for num in vector:
     vector_num.append(int(num))
-print(type(vector_num))
-print(vector_num)
 n= len(vector_num)-1;
 
 print("Position: ",buscaBin(vector_num, 0, n, num_search) + 1);
