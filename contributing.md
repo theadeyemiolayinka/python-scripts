@@ -25,4 +25,8 @@ Where `theadeyemiolayinka` is my username and `addition` is my project name.
 # PRs and Commits
 Make sure to follow the [covetional github commits](https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13) . In this case, all your commits should be of type `feat`
 
+NB: Issues and PRs are closed after three days of inactivity.
+
+Happy Pythoning.
+
 Cheers!
