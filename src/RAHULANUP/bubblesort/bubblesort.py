@@ -7,11 +7,9 @@ def bubbleSort(arr):
  
  
 
-if __name__ == "__main__":
-  arr = [5, 6, 8, 3, 2, 1, 9]
+arr = [5, 6, 8, 3, 2, 1, 9]
+bubbleSort(arr)
  
-  bubbleSort(arr)
- 
-  print("Sorted array is:")
-  for i in range(len(arr)):
-      print("%d" % arr[i], end=" ")
+print("Sorted array is:")
+for i in range(len(arr)):
+    print("%d" % arr[i], end=" ")
