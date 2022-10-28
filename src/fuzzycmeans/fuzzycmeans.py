@@ -139,8 +139,6 @@ s_mean_clus2 = np.array([centers[vers][0],centers[vers][1]])
 s_mean_clus3 = np.array([centers[virg][0],centers[virg][1]])
 print(s_mean_clus1)
 
-
-
 values = np.array(labels) #label
 
 #search all 3 species
@@ -156,25 +154,17 @@ ind_seto = list(ii_seto)
 ind_vers = list(ii_vers)
 ind_virg = list(ii_virg)
 
-
-
 sepal_df = df_data.iloc[:,0:2]
-
-
 
 seto_df = sepal_df[sepal_df.index.isin(ind_seto)]
 vers_df = sepal_df[sepal_df.index.isin(ind_vers)]
 virg_df = sepal_df[sepal_df.index.isin(ind_virg)]
-
-
 
 cov_seto = np.cov(np.transpose(np.array(seto_df)))
 cov_vers = np.cov(np.transpose(np.array(vers_df)))
 cov_virg = np.cov(np.transpose(np.array(virg_df)))
 
 sepal_df = np.array(sepal_df)
-
-
 
 x1 = np.linspace(4,8,150)
 x2 = np.linspace(1.5,4.5,150)
