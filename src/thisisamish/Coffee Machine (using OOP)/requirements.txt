@@ -1,8 +1,0 @@
-There are no external packages required to run this script.
-
-Follow these steps to run this script on your system:
-1. Install Python on your system from https://www.python.org/downloads/.
-2. Clone this folder, Coffee Machine (using OOP), onto your system.
-3. Open up terminal or command prompt on your system and navigate to the above mentioned folder.
-4. Finally, run "python main.py" (without the double quotes, of course).
-And, voila! The Coffee Machine would have been successfully running on your system.

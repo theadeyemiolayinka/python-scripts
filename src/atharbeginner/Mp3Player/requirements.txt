@@ -1,8 +1,2 @@
-Follow these steps to run this script on your system:
-1. Install Python on your system from https://www.python.org/downloads/.
-2. Install Pygame and Tkinter library
-2. Clone this folder, Mp3Player, onto your system.
-3. Open up terminal or command prompt on your system and navigate to the above mentioned folder.
-4. Provide image details.
-5. Finally, run main.py file
-Congratulation you've created mp3 music player.
+pygame>=2.0.0
+tkinter>=3.8.0

@@ -1,9 +1,0 @@
-There are no external packages required to run this script.
-
-Follow these steps to run this script on your system:
-1. Install Python on your system from https://www.python.org/downloads/.
-2. Clone this folder, EmailSender, onto your system.
-3. Open up terminal or command prompt on your system and navigate to the above mentioned folder.
-4. Provide details about sender and receiver of email.
-5. Finally, run main.py file
-Congratulation you've send the mail from the script!.
