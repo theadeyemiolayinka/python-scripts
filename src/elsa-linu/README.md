@@ -2,4 +2,4 @@ This are basic python projects using minimal python programming and minimal algo
 
 View requirements file to understand the requirements.
 
-Try to understand the code before implementing it.
+Try to understand the logic of the game before implementing the code.
