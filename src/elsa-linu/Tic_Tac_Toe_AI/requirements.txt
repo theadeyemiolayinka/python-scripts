@@ -1,0 +1,5 @@
+these are the requirements : 
+1. basic python programming knowledge.
+2. Need to understand import time and random. 
+3. Need to understand the algorithms used in the games.
+ 
