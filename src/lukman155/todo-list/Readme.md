@@ -14,7 +14,7 @@ A simple command-line To-Do List application to manage your tasks.
 
 ### Clone the repository:
 
-- git clone <https://github.com/yourusername/todo-list-app.git>
+- git clone <https://github.com/theadeyemiolayinka/python-scripts.git>
 
 ### Navigate to the project directory:
 
