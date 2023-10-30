@@ -9,7 +9,7 @@ git clone https://github.com/theadeyemiolayinka/python-scripts.git
 
 ### Then move into the directory
 ```
-cd python-scripts/src/shadowranger07/Pong Game
+cd python-scripts/src/shadowranger07/Bill Split Calculator
 ```
 
 ### Install Requirements
